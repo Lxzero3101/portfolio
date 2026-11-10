@@ -1,0 +1,4 @@
+{
+  "_help": "Optional extras per game, keyed by Steam appid (the number in the store URL). Fields: status = playing | completed | dropped | played, rating = 1-10, note = { en, vi }, hidden = true. Example: \"413150\": { \"status\": \"completed\", \"rating\": 8, \"note\": { \"en\": \"...\", \"vi\": \"...\" } }",
+  "games": {}
+}

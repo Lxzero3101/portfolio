@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" data-title-key="blog.title">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog · Viet Phi Long Le</title>
+  <!-- Hidden until there are posts: remove this line and set showBlog: true in script.js. -->
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="assets/avatar.jpg">
+  <script>
+    (() => { let t = null; try { t = localStorage.getItem('theme'); } catch {}
+      if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = t; })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Silkscreen&display=swap&subset=vietnamese" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="nav.skip">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="./"><img src="assets/avatar.jpg" alt="" width="32" height="32"><span>Long Le</span></a>
+      <ul class="nav-links">
+        <li><a href="works.html" data-i18n="nav.works">Works</a></li>
+        <li><a href="library.html" data-i18n="nav.library">Library</a></li>
+        <li data-blog hidden><a href="blog.html" aria-current="page" data-i18n="nav.blog">Blog</a></li>
+        <li><a href="assets/Viet-Phi-Long-Le-CV.pdf" download data-i18n="nav.cv">CV</a></li>
+      </ul>
+      <div class="nav-tools">
+        <button class="icon-btn" type="button" data-lang-toggle>VI</button>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+          <svg class="theme-icon-light" aria-hidden="true"><use href="#i-moon"/></svg>
+          <svg class="theme-icon-dark" aria-hidden="true"><use href="#i-sun"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <header class="page-head">
+      <h1 data-i18n="nav.blog">Blog</h1>
+      <p data-i18n="home.blogDesc">Devlogs, design notes and game reviews.</p>
+    </header>
+    <div class="grid grid-2 section" data-posts style="margin-top:32px"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><span>© <span data-year>2026</span> Viet Phi Long Le</span></div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+  <script>
+    // Posts live in data/posts.json:
+    // [{ "url": "blog/my-post.html", "date": "2026-12-01", "title": { "en": "", "vi": "" }, "summary": { "en": "", "vi": "" } }]
+    (async () => {
+      const box = document.querySelector('[data-posts]');
+      const posts = await fetch('data/posts.json').then((r) => r.json()).catch(() => []);
+      const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+      const render = () => {
+        const lang = getLang();
+        if (!posts.length) { box.innerHTML = `<div class="px empty" style="grid-column:1/-1">${t('blog.empty')}</div>`; return; }
+        box.innerHTML = posts.sort((a, b) => b.date.localeCompare(a.date)).map((p) => `
+          <a class="px explore-card" href="${esc(p.url)}"><div class="body">
+            <div class="small muted">${new Date(p.date).toLocaleDateString(lang === 'vi' ? 'vi-VN' : 'en-AU', { day: 'numeric', month: 'short', year: 'numeric' })}</div>
+            <h3>${esc(p.title?.[lang] || p.title?.en)}</h3>
+            <p>${esc(p.summary?.[lang] || p.summary?.en)}</p>
+          </div></a>`).join('');
+      };
+      document.addEventListener('langchange', render);
+      render();
+    })();
+  </script>
+</body>
+</html>

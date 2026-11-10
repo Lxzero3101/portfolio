@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en" data-title-key="home.title">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viet Phi Long Le · Junior Game Designer</title>
+  <meta name="description" content="Viet Phi Long Le: junior game designer in Sydney focused on level design and playtesting. Level Designer & Programmer on Bomb Slime.">
+  <meta property="og:title" content="Viet Phi Long Le · Junior Game Designer">
+  <meta property="og:description" content="Level design & playtesting. Shipped Bomb Slime (2026), three game jams, two awards.">
+  <meta property="og:image" content="assets/avatar.jpg">
+  <link rel="icon" href="assets/avatar.jpg">
+  <script>
+    (() => { let t = null; try { t = localStorage.getItem('theme'); } catch {}
+      if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = t; })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Silkscreen&display=swap&subset=vietnamese" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="nav.skip">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="./"><img src="assets/avatar.jpg" alt="" width="32" height="32"><span>Long Le</span></a>
+      <ul class="nav-links">
+        <li><a href="works.html" data-i18n="nav.works">Works</a></li>
+        <li><a href="library.html" data-i18n="nav.library">Library</a></li>
+        <li data-blog hidden><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
+        <li><a href="assets/Viet-Phi-Long-Le-CV.pdf" download data-i18n="nav.cv">CV</a></li>
+      </ul>
+      <div class="nav-tools">
+        <button class="icon-btn" type="button" data-lang-toggle>VI</button>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+          <svg class="theme-icon-light" aria-hidden="true"><use href="#i-moon"/></svg>
+          <svg class="theme-icon-dark" aria-hidden="true"><use href="#i-sun"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="name">
+      <img class="avatar" src="assets/avatar.jpg" alt="Long's avatar" width="160" height="160" data-i18n-attr="alt:home.avatarAlt">
+      <div>
+        <h1 id="name">Viet Phi Long Le</h1>
+        <div class="loc"><svg aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="home.loc">Marsfield NSW, Sydney</span></div>
+        <p class="role" data-i18n="home.role">Junior Game Designer · Level Design &amp; Playtesting</p>
+        <div class="intro">
+          <p data-i18n-html="home.intro1">Final-year Bachelor of Game Design and Development student at Macquarie University (completing 2026), with a shipped credit as Level Designer and Programmer on <a href="works.html#bomb-slime">Bomb Slime</a>.</p>
+          <p data-i18n="home.intro2">I design layout-first on paper, build and tune in-engine, and change levels based on playtest evidence. Three game-jam results, including two awards, show I can design quickly to a theme and a constraint. Two years teaching children to code at Code Camp give me first-hand insight into how young players learn, fail and try again.</p>
+        </div>
+        <div class="socials">
+          <a class="icon-btn" href="https://lxzero1412.itch.io" target="_blank" rel="noopener" aria-label="itch.io"><svg aria-hidden="true"><use href="#i-itch"/></svg></a>
+          <a class="icon-btn" href="https://steamcommunity.com/id/lxzero/" target="_blank" rel="noopener" aria-label="Steam"><svg aria-hidden="true"><use href="#i-steam"/></svg></a>
+          <a class="icon-btn" href="https://github.com/Lxzero3101" target="_blank" rel="noopener" aria-label="GitHub"><svg aria-hidden="true"><use href="#i-github"/></svg></a>
+          <button class="icon-btn" type="button" data-copy="fraise1412" aria-label="Copy Discord username fraise1412" data-i18n-attr="aria-label:home.discordCopy"><svg aria-hidden="true"><use href="#i-discord"/></svg></button>
+          <a class="icon-btn" href="mailto:levietphilong2004@gmail.com" aria-label="Email"><svg aria-hidden="true"><use href="#i-mail"/></svg></a>
+        </div>
+        <div class="hero-cta">
+          <a class="btn" href="https://lxzero1412.itch.io" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-gamepad"/></svg><span data-i18n="home.ctaPlay">Play my games</span></a>
+          <a class="btn ghost" href="assets/Viet-Phi-Long-Le-CV.pdf" download><svg aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="home.ctaCv">Download CV</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="section" aria-label="Highlights" data-i18n-attr="aria-label:home.highlights">
+      <div class="stats">
+        <div class="px stat"><div class="num">1</div><div class="lbl" data-i18n="home.statShipped">Shipped title</div></div>
+        <div class="px stat"><div class="num">4</div><div class="lbl" data-i18n="home.statJams">Game jams</div></div>
+        <div class="px stat"><div class="num">2</div><div class="lbl" data-i18n="home.statAwards">Jam awards</div></div>
+        <div class="px stat"><div class="num" data-game-count>—</div><div class="lbl" data-i18n="home.statGames">Steam games played</div></div>
+      </div>
+    </section>
+
+    <!-- Explore -->
+    <section class="section" aria-labelledby="explore">
+      <h2 class="section-title" id="explore"><span class="idx">01</span><span data-i18n="home.explore">Explore</span></h2>
+      <div class="grid grid-3">
+        <a class="px explore-card" href="works.html">
+          <div class="cover"><img src="https://img.itch.zone/aW1nLzMxNDIzMzM5LnBuZw==/original/kqlQGv.png" alt="Bomb Slime cover art" loading="lazy"></div>
+          <div class="body">
+            <h3><span data-i18n="nav.works">Works</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></h3>
+            <p data-i18n="home.worksDesc">A shipped platformer, four jam games and a prototype, with my role on each.</p>
+          </div>
+        </a>
+        <a class="px explore-card" href="library.html">
+          <div class="cover mini-covers" data-mini-covers aria-hidden="true"><div></div><div></div><div></div><div></div></div>
+          <div class="body">
+            <h3><span data-i18n="nav.library">Library</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></h3>
+            <p data-i18n="home.libraryDesc">Games I have played, synced from Steam every day.</p>
+          </div>
+        </a>
+        <a class="px explore-card" href="blog.html" data-blog hidden>
+          <div class="body">
+            <h3><span data-i18n="nav.blog">Blog</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></h3>
+            <p data-i18n="home.blogDesc">Devlogs, design notes and game reviews.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" aria-labelledby="skills">
+      <h2 class="section-title" id="skills"><span class="idx">02</span><span data-i18n="home.skills">Skills &amp; tools</span></h2>
+      <div class="grid grid-2">
+        <div class="px skill-group">
+          <h3 data-i18n="skills.design">Design</h3>
+          <div class="tags">
+            <span class="tag" data-i18n="skills.d1">Paper prototyping</span>
+            <span class="tag" data-i18n="skills.d2">Level layout &amp; teaching order</span>
+            <span class="tag" data-i18n="skills.d3">Trap &amp; obstacle passes</span>
+            <span class="tag" data-i18n="skills.d4">Player-experience goals</span>
+          </div>
+        </div>
+        <div class="px skill-group">
+          <h3 data-i18n="skills.ux">UX &amp; playtesting</h3>
+          <div class="tags">
+            <span class="tag" data-i18n="skills.u1">Remote &amp; in-person playtests</span>
+            <span class="tag" data-i18n="skills.u2">Surveys</span>
+            <span class="tag" data-i18n="skills.u3">Death heat maps</span>
+            <span class="tag" data-i18n="skills.u4">Session recordings</span>
+          </div>
+        </div>
+        <div class="px skill-group">
+          <h3 data-i18n="skills.engine">Engine</h3>
+          <div class="tags">
+            <span class="tag">Unity 6 (2D, URP)</span>
+            <span class="tag">C#</span>
+            <span class="tag" data-i18n="skills.e3">WebGL builds</span>
+            <span class="tag" data-i18n="skills.e4">Unreal Engine (eager to learn)</span>
+          </div>
+        </div>
+        <div class="px skill-group">
+          <h3 data-i18n="skills.workflow">Workflow</h3>
+          <div class="tags">
+            <span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Git LFS</span>
+            <span class="tag">Jira</span><span class="tag">Discord</span><span class="tag">Google Forms</span><span class="tag">PowerPoint</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" aria-labelledby="experience">
+      <h2 class="section-title" id="experience"><span class="idx">03</span><span data-i18n="home.experience">Experience</span></h2>
+      <ol class="timeline">
+        <li class="px tl-item">
+          <div class="tl-date">2026</div>
+          <div>
+            <h3><span data-i18n="exp.bsRole">Level Designer &amp; Programmer, Bomb Slime</span> <span class="org">· JARL</span></h3>
+            <p data-i18n="exp.bsDesc">2D precision platformer built by a team of five in Unity 6, from prototype to public release on itch.io (27 Oct 2026). I ran the release playtest and reworked levels from tester feedback.</p>
+          </div>
+        </li>
+        <li class="px tl-item">
+          <div class="tl-date" data-i18n="exp.ccDate">Oct 2024 – now</div>
+          <div>
+            <h3><span data-i18n="exp.ccRole">Teacher</span> <span class="org">· Code Camp</span></h3>
+            <p data-i18n="exp.ccDesc">Teach children to code through creative projects, building critical thinking and problem-solving. I adapt explanations to each child's attention and pace.</p>
+          </div>
+        </li>
+        <li class="px tl-item">
+          <div class="tl-date" data-i18n="exp.etDate">Aug 2023 – now</div>
+          <div>
+            <h3><span data-i18n="exp.etRole">English Tutor (online)</span> <span class="org">· Zoom &amp; Microsoft Teams</span></h3>
+            <p data-i18n="exp.etDesc">Personalised remote lessons in reading, writing, speaking and listening for learners at different levels.</p>
+          </div>
+        </li>
+        <li class="px tl-item">
+          <div class="tl-date" data-i18n="exp.rsDate">Nov 2020 – May 2022</div>
+          <div>
+            <h3><span data-i18n="exp.rsRole">Retail Sales Assistant</span> <span class="org">· Quoc Thinh Construction and Trading</span></h3>
+            <p data-i18n="exp.rsDesc">Consistently met and exceeded KPI targets through customer communication.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Education -->
+    <section class="section" aria-labelledby="education">
+      <h2 class="section-title" id="education"><span class="idx">04</span><span data-i18n="home.education">Education</span></h2>
+      <ol class="timeline">
+        <li class="px tl-item">
+          <div class="tl-date">2024 – 2026</div>
+          <div>
+            <h3><span data-i18n="edu.bRole">Bachelor of Game Design and Development</span> <span class="org">· Macquarie University</span></h3>
+            <p data-i18n-html="edu.bDesc">Final-year team project: from the prototype <em>Inkform</em> through greenlight, Alpha, beta and public release of <em>Bomb Slime</em>. Proposals, design documentation, playtest reports and a release grant proposal.</p>
+          </div>
+        </li>
+        <li class="px tl-item">
+          <div class="tl-date" data-i18n="edu.dDate">Completed</div>
+          <div>
+            <h3><span data-i18n="edu.dRole">Diploma of Information Technology</span> <span class="org">· Macquarie University</span></h3>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Volunteering -->
+    <section class="section" aria-labelledby="volunteering">
+      <h2 class="section-title" id="volunteering"><span class="idx">05</span><span data-i18n="home.volunteering">Volunteering &amp; certificates</span></h2>
+      <div class="grid grid-2">
+        <div class="px skill-group">
+          <h3 data-i18n="vol.title">Volunteering</h3>
+          <ul class="small" style="margin:0;padding-left:20px">
+            <li data-i18n="vol.v1">Event clown and balloon twister, Nu Cuoi Yeu Thuong (Happy Smiles) Charity Group, HCMC (2020)</li>
+            <li data-i18n="vol.v2">Balloon-twisting instructor, BA Adventure season 3, HCMC International University (2015–2020)</li>
+            <li data-i18n="vol.v3">Volunteer, CoNgot (Sweet Grass) Charity Group (2022–2023)</li>
+          </ul>
+        </div>
+        <div class="px skill-group">
+          <h3 data-i18n="vol.certs">Certificates</h3>
+          <div class="tags">
+            <span class="tag" data-i18n="vol.c1">Working With Children Check</span>
+            <span class="tag">RSA</span><span class="tag">RCG</span>
+            <span class="tag">MOS PowerPoint (2020)</span>
+            <span class="tag">IELTS 6.5 (2023)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" aria-labelledby="contact">
+      <h2 class="section-title" id="contact"><span class="idx">06</span><span data-i18n="home.contact">Contact</span></h2>
+      <div class="px contact">
+        <div class="contact-row"><svg aria-hidden="true"><use href="#i-mail"/></svg><div><span class="k" data-i18n="contact.email">Email</span><a class="v" href="mailto:levietphilong2004@gmail.com">levietphilong2004@gmail.com</a></div></div>
+        <div class="contact-row"><svg aria-hidden="true"><use href="#i-phone"/></svg><div><span class="k" data-i18n="contact.phone">Phone</span><a class="v" href="tel:+61452536779">0452 536 779</a></div></div>
+        <div class="contact-row"><svg aria-hidden="true"><use href="#i-discord"/></svg><div><span class="k" data-i18n="contact.discord">Discord (click to copy)</span><button class="v copy-btn" type="button" data-copy="fraise1412">fraise1412</button></div></div>
+        <div class="contact-row"><svg aria-hidden="true"><use href="#i-pin"/></svg><div><span class="k" data-i18n="contact.location">Location</span><span class="v">Marsfield NSW 2122, Sydney</span></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span data-year>2026</span> Viet Phi Long Le</span>
+      <span><a href="https://lxzero1412.itch.io" target="_blank" rel="noopener">itch.io</a> · <a href="https://steamcommunity.com/id/lxzero/" target="_blank" rel="noopener">Steam</a> · <a href="https://github.com/Lxzero3101" target="_blank" rel="noopener">GitHub</a></span>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+  <script>
+    // Home: show Steam game count + four most recently played covers.
+    fetch('data/steam-library.json').then((r) => r.json()).then((games) => {
+      document.querySelector('[data-game-count]').textContent = games.length;
+      const recent = [...games].sort((a, b) => (b.lastPlayedAt || '').localeCompare(a.lastPlayedAt || '')).slice(0, 4);
+      document.querySelectorAll('[data-mini-covers] div').forEach((cell, i) => {
+        const g = recent[i]; if (!g) return;
+        const img = new Image(); img.alt = ''; img.loading = 'lazy'; img.src = g.cover;
+        img.onerror = () => { if (img.src !== g.coverFallback) img.src = g.coverFallback; };
+        cell.append(img);
+      });
+    }).catch(() => {});
+  </script>
+</body>
+</html>

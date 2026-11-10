@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" data-title-key="works.title">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Works · Viet Phi Long Le</title>
+  <meta name="description" content="Games by Viet Phi Long Le: Bomb Slime, Space Kitchen: Starberry Hell, Pay or Decay, FOCUS!, IAmNesia and Inkform.">
+  <link rel="icon" href="assets/avatar.jpg">
+  <script>
+    (() => { let t = null; try { t = localStorage.getItem('theme'); } catch {}
+      if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = t; })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Silkscreen&display=swap&subset=vietnamese" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="nav.skip">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="./"><img src="assets/avatar.jpg" alt="" width="32" height="32"><span>Long Le</span></a>
+      <ul class="nav-links">
+        <li><a href="works.html" aria-current="page" data-i18n="nav.works">Works</a></li>
+        <li><a href="library.html" data-i18n="nav.library">Library</a></li>
+        <li data-blog hidden><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
+        <li><a href="assets/Viet-Phi-Long-Le-CV.pdf" download data-i18n="nav.cv">CV</a></li>
+      </ul>
+      <div class="nav-tools">
+        <button class="icon-btn" type="button" data-lang-toggle>VI</button>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+          <svg class="theme-icon-light" aria-hidden="true"><use href="#i-moon"/></svg>
+          <svg class="theme-icon-dark" aria-hidden="true"><use href="#i-sun"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <header class="page-head">
+      <h1 data-i18n="nav.works">Works</h1>
+      <p data-i18n="works.lead">Games I have designed and built, and what I did on each.</p>
+    </header>
+
+    <!-- Shipped title -->
+    <section class="section" aria-labelledby="bomb-slime">
+      <h2 class="section-title"><span class="idx">01</span><span data-i18n="works.shipped">Shipped title</span></h2>
+      <article class="px feature">
+        <div class="cover"><img src="https://img.itch.zone/aW1nLzMxNDIzMzM5LnBuZw==/original/kqlQGv.png" alt="Bomb Slime cover art"></div>
+        <div class="body">
+          <span class="badge" data-i18n="works.bsBadge">Released 27 Oct 2026</span>
+          <h2 id="bomb-slime">Bomb Slime</h2>
+          <div class="meta" data-i18n="works.bsMeta">Level Designer &amp; Programmer · JARL (formerly Team Haven), team of five · Unity 6</div>
+          <p data-i18n="works.bsDesc">2D precision platformer, free on itch.io for browser and Windows. A two-semester degree project, from prototype to public release.</p>
+          <ul>
+            <li data-i18n-html="works.bs1"><strong>Level design:</strong> authored the original eight-room Level 1 layout on paper, labelling every room with the mechanic it teaches. Ran trap, obstacle and finishing passes on Mine Caves 1 and 3, and built Mine Cave 2's moving platforms, crushers and laser, redesigning its first half where playtesters rated it poorly.</li>
+            <li data-i18n-html="works.bs2"><strong>Playtesting:</strong> ran the 28 October hybrid group playtest (16 of the project's 20 survey responses, 19 opt-in session recordings) and built the WebGL browser build used for the September Alpha playtests.</li>
+            <li data-i18n-html="works.bs3"><strong>Evidence-led iteration:</strong> owned the opening-difficulty risk raised at Alpha, when 3 of 4 testers found the opening too hard. By release, 15 of 20 testers rated Mine Cave 1 easy or just right.</li>
+            <li data-i18n-html="works.bs4"><strong>Production:</strong> 141 logged hours and 72 non-merge commits. Added checkpoints, a capacity pickup, a run timer, the bomb-inventory display and credits.</li>
+            <li data-i18n-html="works.bs5"><strong>Showcasing:</strong> ran the game's station at a Sydney Games Festival showcase (15 Oct 2026).</li>
+          </ul>
+          <a class="btn" href="https://pengzzzccc.itch.io/bombslime" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-gamepad"/></svg><span data-i18n="works.playItch">Play on itch.io</span></a>
+        </div>
+      </article>
+    </section>
+
+    <!-- Game jams & prototypes -->
+    <section class="section" aria-labelledby="jams">
+      <h2 class="section-title" id="jams"><span class="idx">02</span><span data-i18n="works.jams">Game jams &amp; prototypes</span></h2>
+      <div class="grid grid-3">
+        <a class="px work-card" href="https://lxzero1412.itch.io/space-kitchen-starberry-hell" target="_blank" rel="noopener">
+          <div class="cover"><img src="https://img.itch.zone/aW1nLzI2Nzg4ODczLnBuZw==/315x250%23c/GEHCX%2B.png" alt="Space Kitchen: Starberry Hell cover" loading="lazy"></div>
+          <div class="body">
+            <span><span class="badge" data-i18n="works.skBadge">Winner · Best use of constraint &amp; theme</span></span>
+            <h3>Space Kitchen: Starberry Hell</h3>
+            <div class="meta">MACS/MAGE Jam Finale 2026</div>
+            <span class="play"><span data-i18n="works.playItch">Play on itch.io</span><svg aria-hidden="true"><use href="#i-external"/></svg></span>
+          </div>
+        </a>
+        <a class="px work-card" href="https://lxzero1412.itch.io/pay-or-decay" target="_blank" rel="noopener">
+          <div class="cover"><img src="https://img.itch.zone/aW1nLzI4Nzc5MjA2LnBuZw==/315x250%23c/PqH4ze.png" alt="Pay or Decay cover" loading="lazy"></div>
+          <div class="body">
+            <span><span class="badge dark" data-i18n="works.pdBadge">Top 16% overall</span></span>
+            <h3>Pay or Decay</h3>
+            <div class="meta">GMTK Game Jam 2026</div>
+            <p class="small" data-i18n="works.pdDesc">Led the entry as developer and designer.</p>
+            <span class="play"><span data-i18n="works.playItch">Play on itch.io</span><svg aria-hidden="true"><use href="#i-external"/></svg></span>
+          </div>
+        </a>
+        <a class="px work-card" href="https://spiredformula.itch.io/focus" target="_blank" rel="noopener">
+          <div class="cover"><img src="https://img.itch.zone/aW1nLzIyMDc4OTY4LnBuZw==/315x250%23c/icTdwZ.png" alt="FOCUS! cover" loading="lazy"></div>
+          <div class="body">
+            <span><span class="badge" data-i18n="works.fcBadge">Winner · Best Use of Theme</span></span>
+            <h3>FOCUS!</h3>
+            <div class="meta" data-i18n="works.fcMeta">Game Jam 2025, Macquarie University</div>
+            <p class="small" data-i18n="works.fcDesc">Survive the work day as an office worker with ADHD. Designer and developer in Unity and C#; concept and visuals mapped out in mind maps.</p>
+            <span class="play"><span data-i18n="works.playItch">Play on itch.io</span><svg aria-hidden="true"><use href="#i-external"/></svg></span>
+          </div>
+        </a>
+        <a class="px work-card" href="https://lxzero1412.itch.io/iamnesia" target="_blank" rel="noopener">
+          <div class="cover"><img src="https://img.itch.zone/aW1nLzI4MzU0MDk5LnBuZw==/315x250%23c/ycW0Bx.png" alt="IAmNesia cover" loading="lazy"></div>
+          <div class="body">
+            <h3>IAmNesia</h3>
+            <div class="meta" data-i18n="works.iaMeta">Game jam · Leader, Programmer &amp; Designer</div>
+            <p class="small" data-i18n="works.iaDesc">A 2D visual novel role-play puzzle. You are Nesia, a girl who wakes up with no memory inside an empty storybook, carrying only a magic pen, and sets out to uncover her past.</p>
+            <p class="lesson" data-i18n="works.iaLesson">What I learned: I tried to build every mechanic I could think of instead of refining one. It didn't place, and it taught me to pick one mechanic and polish it.</p>
+            <span class="play"><span data-i18n="works.playItch">Play on itch.io</span><svg aria-hidden="true"><use href="#i-external"/></svg></span>
+          </div>
+        </a>
+        <article class="px work-card">
+          <div class="cover blank" aria-hidden="true">INKFORM</div>
+          <div class="body">
+            <span><span class="badge dark" data-i18n="works.ifBadge">Prototype · 2026</span></span>
+            <h3>Inkform</h3>
+            <div class="meta" data-i18n="works.ifMeta">Level design lead · JARL</div>
+            <p class="small" data-i18n="works.ifDesc">The team's prototype earlier in 2026, which went through greenlight and grew into Bomb Slime.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span data-year>2026</span> Viet Phi Long Le</span>
+      <span><a href="https://lxzero1412.itch.io" target="_blank" rel="noopener">itch.io</a> · <a href="https://steamcommunity.com/id/lxzero/" target="_blank" rel="noopener">Steam</a> · <a href="https://github.com/Lxzero3101" target="_blank" rel="noopener">GitHub</a></span>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

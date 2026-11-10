@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en" data-title-key="lib.title">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Library · Viet Phi Long Le</title>
+  <meta name="description" content="Games Viet Phi Long Le has played, synced from Steam every day.">
+  <link rel="icon" href="assets/avatar.jpg">
+  <script>
+    (() => { let t = null; try { t = localStorage.getItem('theme'); } catch {}
+      if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = t; })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Silkscreen&display=swap&subset=vietnamese" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="nav.skip">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="./"><img src="assets/avatar.jpg" alt="" width="32" height="32"><span>Long Le</span></a>
+      <ul class="nav-links">
+        <li><a href="works.html" data-i18n="nav.works">Works</a></li>
+        <li><a href="library.html" aria-current="page" data-i18n="nav.library">Library</a></li>
+        <li data-blog hidden><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
+        <li><a href="assets/Viet-Phi-Long-Le-CV.pdf" download data-i18n="nav.cv">CV</a></li>
+      </ul>
+      <div class="nav-tools">
+        <button class="icon-btn" type="button" data-lang-toggle>VI</button>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+          <svg class="theme-icon-light" aria-hidden="true"><use href="#i-moon"/></svg>
+          <svg class="theme-icon-dark" aria-hidden="true"><use href="#i-sun"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <header class="page-head">
+      <h1 data-i18n="nav.library">Library</h1>
+      <p data-i18n="lib.lead">Games I have played, synced from my Steam profile every day.</p>
+    </header>
+
+    <section class="section" aria-label="Summary" data-i18n-attr="aria-label:lib.summary" style="margin-top:28px">
+      <div class="stats">
+        <div class="px stat"><div class="num" data-stat="total">—</div><div class="lbl" data-i18n="lib.total">Games played</div></div>
+        <div class="px stat"><div class="num" data-stat="playing">—</div><div class="lbl" data-i18n="lib.playingNow">Playing now</div></div>
+        <div class="px stat"><div class="num" data-stat="hours">—</div><div class="lbl" data-i18n="lib.hours">Hours on Steam</div></div>
+        <div class="px stat"><div class="num" data-stat="rating">—</div><div class="lbl" data-i18n="lib.avgRating">Avg. rating</div></div>
+      </div>
+      <p class="sync-note"><span data-i18n="lib.lastSync">Last sync</span>: <span data-sync>—</span> · <a href="https://steamcommunity.com/id/lxzero/" target="_blank" rel="noopener" data-i18n="lib.profile">Steam profile</a></p>
+    </section>
+
+    <div class="toolbar">
+      <div class="filters" role="group" aria-label="Filter by status" data-i18n-attr="aria-label:lib.filterLabel" data-filters></div>
+      <div class="spacer"></div>
+      <label class="field"><span data-i18n="lib.search">Search</span>
+        <input type="search" data-search autocomplete="off">
+      </label>
+      <label class="field"><span data-i18n="lib.sort">Sort</span>
+        <select data-sort>
+          <option value="recent" data-i18n="lib.sortRecent">Recently played</option>
+          <option value="playtime" data-i18n="lib.sortPlaytime">Playtime</option>
+          <option value="rating" data-i18n="lib.sortRating">Rating</option>
+          <option value="name" data-i18n="lib.sortName">Name</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="games" data-games aria-live="polite"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span data-year>2026</span> Viet Phi Long Le</span>
+      <span data-i18n="lib.footer">Game data and cover art from Steam.</span>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+  <script src="library.js"></script>
+</body>
+</html>

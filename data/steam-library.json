@@ -1,0 +1,650 @@
+[
+  {
+    "appid": 550,
+    "name": "Left 4 Dead 2",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg",
+    "playtimeMinutes": 1298,
+    "lastPlayedAt": "2025-06-10T18:46:52.000Z"
+  },
+  {
+    "appid": 570,
+    "name": "Dota 2",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg",
+    "playtimeMinutes": 42,
+    "lastPlayedAt": "2023-12-16T15:10:55.000Z"
+  },
+  {
+    "appid": 730,
+    "name": "Counter-Strike 2",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg",
+    "playtimeMinutes": 22386,
+    "lastPlayedAt": "2026-11-07T15:50:49.000Z"
+  },
+  {
+    "appid": 40970,
+    "name": "Stronghold Crusader HD (2012)",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40970/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40970/header.jpg",
+    "playtimeMinutes": 94,
+    "lastPlayedAt": "2026-11-10T17:15:45.000Z"
+  },
+  {
+    "appid": 108600,
+    "name": "Project Zomboid",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
+    "playtimeMinutes": 100,
+    "lastPlayedAt": "2024-12-03T14:24:12.000Z"
+  },
+  {
+    "appid": 204360,
+    "name": "Castle Crashers®",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/204360/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/204360/header.jpg",
+    "playtimeMinutes": 25,
+    "lastPlayedAt": "2024-11-30T14:07:30.000Z"
+  },
+  {
+    "appid": 220700,
+    "name": "RPG Maker VX Ace",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220700/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220700/header.jpg",
+    "playtimeMinutes": 1,
+    "lastPlayedAt": "2024-05-04T19:41:21.000Z"
+  },
+  {
+    "appid": 235900,
+    "name": "RPG Maker XP",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/235900/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/235900/header.jpg",
+    "playtimeMinutes": 3,
+    "lastPlayedAt": "2024-02-20T02:55:34.000Z"
+  },
+  {
+    "appid": 238320,
+    "name": "Outlast",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238320/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238320/header.jpg",
+    "playtimeMinutes": 129,
+    "lastPlayedAt": "2024-10-30T12:32:11.000Z"
+  },
+  {
+    "appid": 242760,
+    "name": "The Forest",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg",
+    "playtimeMinutes": 422,
+    "lastPlayedAt": "2025-01-08T10:19:02.000Z"
+  },
+  {
+    "appid": 246620,
+    "name": "Plague Inc: Evolved",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/header.jpg",
+    "playtimeMinutes": 662,
+    "lastPlayedAt": "2026-08-06T02:21:39.000Z"
+  },
+  {
+    "appid": 268910,
+    "name": "Cuphead",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg",
+    "playtimeMinutes": 147,
+    "lastPlayedAt": "2024-12-07T04:16:38.000Z"
+  },
+  {
+    "appid": 322330,
+    "name": "Don't Starve Together",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/header.jpg",
+    "playtimeMinutes": 243,
+    "lastPlayedAt": "2024-05-07T08:24:12.000Z"
+  },
+  {
+    "appid": 333600,
+    "name": "NEKOPARA Vol. 1",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/333600/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/333600/header.jpg",
+    "playtimeMinutes": 119,
+    "lastPlayedAt": "2024-04-23T20:01:07.000Z"
+  },
+  {
+    "appid": 365670,
+    "name": "Blender",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/365670/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/365670/header.jpg",
+    "playtimeMinutes": 14,
+    "lastPlayedAt": "2026-09-11T06:01:00.000Z"
+  },
+  {
+    "appid": 397900,
+    "name": "Business Tour - Board Game with Online Multiplayer",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/397900/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/397900/header.jpg",
+    "playtimeMinutes": 156,
+    "lastPlayedAt": "2023-02-28T08:47:43.000Z"
+  },
+  {
+    "appid": 413150,
+    "name": "Stardew Valley",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg",
+    "playtimeMinutes": 19838,
+    "lastPlayedAt": "2025-10-07T13:26:08.000Z"
+  },
+  {
+    "appid": 431730,
+    "name": "Aseprite",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431730/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431730/header.jpg",
+    "playtimeMinutes": 2,
+    "lastPlayedAt": "2026-11-08T16:00:41.000Z"
+  },
+  {
+    "appid": 438100,
+    "name": "VRChat",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/438100/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/438100/header.jpg",
+    "playtimeMinutes": 846,
+    "lastPlayedAt": "2026-11-05T10:00:58.000Z"
+  },
+  {
+    "appid": 448510,
+    "name": "Overcooked",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/448510/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/448510/header.jpg",
+    "playtimeMinutes": 3,
+    "lastPlayedAt": "2024-11-23T06:57:14.000Z"
+  },
+  {
+    "appid": 457140,
+    "name": "Oxygen Not Included",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/header.jpg",
+    "playtimeMinutes": 54,
+    "lastPlayedAt": "2024-05-07T09:25:33.000Z"
+  },
+  {
+    "appid": 466240,
+    "name": "Deceit",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/466240/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/466240/header.jpg",
+    "playtimeMinutes": 63,
+    "lastPlayedAt": "2020-08-09T07:21:38.000Z"
+  },
+  {
+    "appid": 493520,
+    "name": "GTFO",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/493520/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/493520/header.jpg",
+    "playtimeMinutes": 800,
+    "lastPlayedAt": "2025-03-09T12:26:25.000Z"
+  },
+  {
+    "appid": 504230,
+    "name": "Celeste",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg",
+    "playtimeMinutes": 215,
+    "lastPlayedAt": "2026-10-31T05:09:35.000Z"
+  },
+  {
+    "appid": 602520,
+    "name": "NEKOPARA Vol. 3",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/602520/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/602520/header.jpg",
+    "playtimeMinutes": 252,
+    "lastPlayedAt": "2025-04-18T19:08:11.000Z"
+  },
+  {
+    "appid": 655790,
+    "name": "Fly Simulator",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/655790/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/655790/header.jpg",
+    "playtimeMinutes": 11,
+    "lastPlayedAt": "2024-01-24T15:16:47.000Z"
+  },
+  {
+    "appid": 671860,
+    "name": "BattleBit Remastered",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/671860/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/671860/header.jpg",
+    "playtimeMinutes": 68,
+    "lastPlayedAt": "2023-07-02T12:17:55.000Z"
+  },
+  {
+    "appid": 690640,
+    "name": "Trine 4: The Nightmare Prince",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690640/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690640/header.jpg",
+    "playtimeMinutes": 160,
+    "lastPlayedAt": "2024-11-30T13:18:12.000Z"
+  },
+  {
+    "appid": 699130,
+    "name": "World War Z",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/header.jpg",
+    "playtimeMinutes": 706,
+    "lastPlayedAt": "2025-03-18T19:20:54.000Z"
+  },
+  {
+    "appid": 714010,
+    "name": "Aimlabs",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/714010/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/714010/header.jpg",
+    "playtimeMinutes": 53,
+    "lastPlayedAt": "2023-10-11T12:53:45.000Z"
+  },
+  {
+    "appid": 728880,
+    "name": "Overcooked! 2",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728880/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728880/header.jpg",
+    "playtimeMinutes": 502,
+    "lastPlayedAt": "2025-11-23T08:54:31.000Z"
+  },
+  {
+    "appid": 736190,
+    "name": "Chinese Parents",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736190/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736190/header.jpg",
+    "playtimeMinutes": 445,
+    "lastPlayedAt": "2025-02-17T07:57:22.000Z"
+  },
+  {
+    "appid": 880940,
+    "name": "Pummel Party",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/880940/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/880940/header.jpg",
+    "playtimeMinutes": 197,
+    "lastPlayedAt": "2024-12-05T11:56:52.000Z"
+  },
+  {
+    "appid": 892970,
+    "name": "Valheim",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/header.jpg",
+    "playtimeMinutes": 8578,
+    "lastPlayedAt": "2026-09-28T08:19:14.000Z"
+  },
+  {
+    "appid": 939400,
+    "name": "LoveChoice",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/939400/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/939400/header.jpg",
+    "playtimeMinutes": 185,
+    "lastPlayedAt": "2025-03-21T11:14:36.000Z"
+  },
+  {
+    "appid": 1029690,
+    "name": "Sniper Elite 5",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029690/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029690/header.jpg",
+    "playtimeMinutes": 8,
+    "lastPlayedAt": "2025-09-06T13:14:49.000Z"
+  },
+  {
+    "appid": 1145360,
+    "name": "Hades",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg",
+    "playtimeMinutes": 1,
+    "lastPlayedAt": "2024-01-31T13:09:51.000Z"
+  },
+  {
+    "appid": 1172470,
+    "name": "Apex Legends™",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/header.jpg",
+    "playtimeMinutes": 1337,
+    "lastPlayedAt": "2026-11-10T09:33:18.000Z"
+  },
+  {
+    "appid": 1245620,
+    "name": "ELDEN RING",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
+    "playtimeMinutes": 80,
+    "lastPlayedAt": "2024-08-20T07:41:40.000Z"
+  },
+  {
+    "appid": 1282100,
+    "name": "REMNANT II®",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282100/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282100/header.jpg",
+    "playtimeMinutes": 2574,
+    "lastPlayedAt": "2026-11-07T09:48:57.000Z"
+  },
+  {
+    "appid": 1283700,
+    "name": "SUPERVIVE",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1283700/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1283700/header.jpg",
+    "playtimeMinutes": 262,
+    "lastPlayedAt": "2024-11-22T11:39:42.000Z"
+  },
+  {
+    "appid": 1325860,
+    "name": "VTube Studio",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1325860/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1325860/header.jpg",
+    "playtimeMinutes": 6,
+    "lastPlayedAt": "2025-12-22T17:00:37.000Z"
+  },
+  {
+    "appid": 1372110,
+    "name": "JoJo's Bizarre Adventure: All-Star Battle R",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1372110/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1372110/header.jpg",
+    "playtimeMinutes": 13,
+    "lastPlayedAt": "2024-03-15T13:37:32.000Z"
+  },
+  {
+    "appid": 1406990,
+    "name": "NEKOPARA Vol. 4",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1406990/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1406990/header.jpg",
+    "playtimeMinutes": 144,
+    "lastPlayedAt": "2025-09-14T09:51:15.000Z"
+  },
+  {
+    "appid": 1426210,
+    "name": "It Takes Two",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg",
+    "playtimeMinutes": 752,
+    "lastPlayedAt": "2024-03-30T12:33:23.000Z"
+  },
+  {
+    "appid": 1432860,
+    "name": "Sun Haven",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1432860/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1432860/header.jpg",
+    "playtimeMinutes": 118,
+    "lastPlayedAt": "2023-12-20T19:57:58.000Z"
+  },
+  {
+    "appid": 1451940,
+    "name": "NEEDY STREAMER OVERLOAD",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1451940/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1451940/header.jpg",
+    "playtimeMinutes": 12,
+    "lastPlayedAt": "2024-05-03T16:07:57.000Z"
+  },
+  {
+    "appid": 1465460,
+    "name": "Infection Free Zone",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465460/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465460/header.jpg",
+    "playtimeMinutes": 10,
+    "lastPlayedAt": "2026-11-10T17:40:45.000Z"
+  },
+  {
+    "appid": 1509960,
+    "name": "PICO PARK",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1509960/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1509960/header.jpg",
+    "playtimeMinutes": 132,
+    "lastPlayedAt": "2023-08-26T12:31:19.000Z"
+  },
+  {
+    "appid": 1568400,
+    "name": "Sheepy: A Short Adventure",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1568400/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1568400/header.jpg",
+    "playtimeMinutes": 88,
+    "lastPlayedAt": "2026-08-30T12:53:34.000Z"
+  },
+  {
+    "appid": 1568590,
+    "name": "Goose Goose Duck",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1568590/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1568590/header.jpg",
+    "playtimeMinutes": 536,
+    "lastPlayedAt": "2025-05-03T16:16:05.000Z"
+  },
+  {
+    "appid": 1581800,
+    "name": "Slow living with Princess",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1581800/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1581800/header.jpg",
+    "playtimeMinutes": 66,
+    "lastPlayedAt": "2024-05-04T15:27:21.000Z"
+  },
+  {
+    "appid": 1623730,
+    "name": "Palworld",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
+    "playtimeMinutes": 5591,
+    "lastPlayedAt": "2025-08-16T13:25:14.000Z"
+  },
+  {
+    "appid": 1625450,
+    "name": "Muck",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1625450/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1625450/header.jpg",
+    "playtimeMinutes": 4504,
+    "lastPlayedAt": "2023-11-13T13:57:38.000Z"
+  },
+  {
+    "appid": 1742020,
+    "name": "Idol Showdown",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1742020/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1742020/header.jpg",
+    "playtimeMinutes": 118,
+    "lastPlayedAt": "2023-06-04T16:47:31.000Z"
+  },
+  {
+    "appid": 1782210,
+    "name": "Crab Game",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782210/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782210/header.jpg",
+    "playtimeMinutes": 4,
+    "lastPlayedAt": "2021-11-01T10:49:53.000Z"
+  },
+  {
+    "appid": 1801110,
+    "name": "BOKURA",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1801110/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1801110/header.jpg",
+    "playtimeMinutes": 400,
+    "lastPlayedAt": "2026-10-31T06:07:42.000Z"
+  },
+  {
+    "appid": 1899700,
+    "name": "Graphwar",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1899700/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1899700/header.jpg",
+    "playtimeMinutes": 5,
+    "lastPlayedAt": "2022-11-26T15:31:54.000Z"
+  },
+  {
+    "appid": 1903340,
+    "name": "Clair Obscur: Expedition 33",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/header.jpg",
+    "playtimeMinutes": 1054,
+    "lastPlayedAt": "2026-01-01T13:33:52.000Z"
+  },
+  {
+    "appid": 1966720,
+    "name": "Lethal Company",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/header.jpg",
+    "playtimeMinutes": 2182,
+    "lastPlayedAt": "2024-09-30T16:35:23.000Z"
+  },
+  {
+    "appid": 2072450,
+    "name": "Like a Dragon: Infinite Wealth",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2072450/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2072450/header.jpg",
+    "playtimeMinutes": 1304,
+    "lastPlayedAt": "2025-03-18T14:29:41.000Z"
+  },
+  {
+    "appid": 2275710,
+    "name": "Akari and the Abyss",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2275710/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2275710/header.jpg",
+    "playtimeMinutes": 36,
+    "lastPlayedAt": "2026-05-03T16:08:17.000Z"
+  },
+  {
+    "appid": 2379780,
+    "name": "Balatro",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/header.jpg",
+    "playtimeMinutes": 682,
+    "lastPlayedAt": "2025-03-18T14:58:47.000Z"
+  },
+  {
+    "appid": 2420510,
+    "name": "HoloCure - Save the Fans!",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420510/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420510/header.jpg",
+    "playtimeMinutes": 578,
+    "lastPlayedAt": "2026-03-22T17:47:35.000Z"
+  },
+  {
+    "appid": 2515070,
+    "name": "AQUARIUM",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515070/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515070/header.jpg",
+    "playtimeMinutes": 308,
+    "lastPlayedAt": "2026-04-01T00:51:02.000Z"
+  },
+  {
+    "appid": 2653790,
+    "name": "The Exit 8",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2653790/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2653790/header.jpg",
+    "playtimeMinutes": 17,
+    "lastPlayedAt": "2025-10-31T15:02:38.000Z"
+  },
+  {
+    "appid": 2739990,
+    "name": "Mahjong Soul",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2739990/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2739990/header.jpg",
+    "playtimeMinutes": 8,
+    "lastPlayedAt": "2024-11-12T09:33:38.000Z"
+  },
+  {
+    "appid": 2767030,
+    "name": "Marvel Rivals",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2767030/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2767030/header.jpg",
+    "playtimeMinutes": 83,
+    "lastPlayedAt": "2025-03-18T02:56:25.000Z"
+  },
+  {
+    "appid": 2776810,
+    "name": "100 Ninja Cats",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2776810/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2776810/header.jpg",
+    "playtimeMinutes": 1,
+    "lastPlayedAt": "2026-04-16T13:55:09.000Z"
+  },
+  {
+    "appid": 2881650,
+    "name": "Content Warning",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881650/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881650/header.jpg",
+    "playtimeMinutes": 145,
+    "lastPlayedAt": "2024-04-03T09:08:26.000Z"
+  },
+  {
+    "appid": 2909110,
+    "name": "Nuclear Nightmare",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909110/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909110/header.jpg",
+    "playtimeMinutes": 26,
+    "lastPlayedAt": "2024-12-03T16:40:25.000Z"
+  },
+  {
+    "appid": 3032020,
+    "name": "Cast & Spell",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3032020/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3032020/header.jpg",
+    "playtimeMinutes": 4,
+    "lastPlayedAt": "2025-05-19T06:39:47.000Z"
+  },
+  {
+    "appid": 3070070,
+    "name": "TCG Card Shop Simulator",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/header.jpg",
+    "playtimeMinutes": 65,
+    "lastPlayedAt": "2026-01-01T10:34:17.000Z"
+  },
+  {
+    "appid": 3164500,
+    "name": "Schedule I",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/header.jpg",
+    "playtimeMinutes": 2803,
+    "lastPlayedAt": "2025-09-12T13:10:45.000Z"
+  },
+  {
+    "appid": 3224770,
+    "name": "Umamusume: Pretty Derby",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3224770/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3224770/header.jpg",
+    "playtimeMinutes": 167406,
+    "lastPlayedAt": "2026-11-10T14:41:42.000Z"
+  },
+  {
+    "appid": 3241660,
+    "name": "R.E.P.O.",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/header.jpg",
+    "playtimeMinutes": 284,
+    "lastPlayedAt": "2025-08-31T11:42:18.000Z"
+  },
+  {
+    "appid": 3339420,
+    "name": "your wife",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3339420/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3339420/header.jpg",
+    "playtimeMinutes": 4,
+    "lastPlayedAt": "2025-03-22T17:41:14.000Z"
+  },
+  {
+    "appid": 3399950,
+    "name": "Your Mother",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3399950/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3399950/header.jpg",
+    "playtimeMinutes": 342,
+    "lastPlayedAt": "2025-03-23T21:07:17.000Z"
+  },
+  {
+    "appid": 3404380,
+    "name": "Your Daughter",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404380/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404380/header.jpg",
+    "playtimeMinutes": 1,
+    "lastPlayedAt": "2025-05-03T12:21:31.000Z"
+  },
+  {
+    "appid": 3414900,
+    "name": "Just Move:Clean City Messy Battle",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3414900/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3414900/header.jpg",
+    "playtimeMinutes": 12,
+    "lastPlayedAt": "2026-11-10T15:33:40.000Z"
+  },
+  {
+    "appid": 3655150,
+    "name": "NEKOPARA After",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3655150/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3655150/header.jpg",
+    "playtimeMinutes": 350,
+    "lastPlayedAt": "2026-09-08T01:26:10.000Z"
+  }
+]
