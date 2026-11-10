@@ -200,6 +200,11 @@ main { padding: 40px 0 64px; }
 @media (min-width: 760px) { .hero { grid-template-columns: 168px 1fr; gap: 36px; } }
 .avatar { width: 136px; height: 136px; box-shadow: 0 0 0 var(--px) var(--line), 8px 8px 0 var(--px) var(--shadow); margin: 4px; }
 @media (min-width: 760px) { .avatar { width: 160px; height: 160px; } }
+.hero-media { display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; }
+@media (min-width: 760px) { .hero-media { flex-direction: column; gap: 28px; } }
+.portrait { margin: 0; }
+.portrait img { display: block; object-fit: cover; }
+.portrait figcaption { font-family: var(--font-px); font-size: 12px; color: var(--muted); margin-top: 12px; text-align: center; letter-spacing: .03em; }
 .hero h1 { font-size: clamp(32px, 6vw, 48px); font-weight: 800; letter-spacing: -.01em; }
 .hero .role { font-size: 18px; font-weight: 600; margin: 10px 0 18px; color: var(--primary); }
 .hero .loc { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font-size: 14px; margin-top: 6px; }
@@ -282,6 +287,7 @@ main { padding: 40px 0 64px; }
 .work-card .body { padding: 16px 18px 20px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .work-card h3 { font-size: 19px; }
 .work-card .meta { font-size: 14px; color: var(--muted); }
+.work-card .role { font-size: 14px; font-weight: 600; margin-top: -4px; }
 .work-card .lesson { font-size: 15px; border-left: var(--px) solid var(--accent-fill); padding-left: 10px; color: var(--muted); }
 .work-card .play { margin-top: auto; padding-top: 6px; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; }
 .work-card .play svg { width: 16px; height: 16px; }
