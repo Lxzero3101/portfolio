@@ -8,28 +8,12 @@
     "lastPlayedAt": "2025-06-10T18:46:52.000Z"
   },
   {
-    "appid": 570,
-    "name": "Dota 2",
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/library_600x900.jpg",
-    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg",
-    "playtimeMinutes": 42,
-    "lastPlayedAt": "2023-12-16T15:10:55.000Z"
-  },
-  {
     "appid": 730,
     "name": "Counter-Strike 2",
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/library_600x900.jpg",
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg",
     "playtimeMinutes": 22386,
     "lastPlayedAt": "2026-11-07T15:50:49.000Z"
-  },
-  {
-    "appid": 40970,
-    "name": "Stronghold Crusader HD (2012)",
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40970/library_600x900.jpg",
-    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40970/header.jpg",
-    "playtimeMinutes": 94,
-    "lastPlayedAt": "2026-11-10T17:15:45.000Z"
   },
   {
     "appid": 108600,
@@ -41,7 +25,7 @@
   },
   {
     "appid": 204360,
-    "name": "Castle Crashers®",
+    "name": "Castle Crashers",
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/204360/library_600x900.jpg",
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/204360/header.jpg",
     "playtimeMinutes": 25,
@@ -121,7 +105,7 @@
   },
   {
     "appid": 397900,
-    "name": "Business Tour - Board Game with Online Multiplayer",
+    "name": "Business Tour - Online Multiplayer Board Game",
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/397900/library_600x900.jpg",
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/397900/header.jpg",
     "playtimeMinutes": 156,
@@ -297,7 +281,7 @@
   },
   {
     "appid": 1172470,
-    "name": "Apex Legends™",
+    "name": "Apex Legends",
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/library_600x900.jpg",
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/header.jpg",
     "playtimeMinutes": 1337,
@@ -313,7 +297,7 @@
   },
   {
     "appid": 1282100,
-    "name": "REMNANT II®",
+    "name": "Remnant II",
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282100/library_600x900.jpg",
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282100/header.jpg",
     "playtimeMinutes": 2574,
@@ -326,14 +310,6 @@
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1283700/header.jpg",
     "playtimeMinutes": 262,
     "lastPlayedAt": "2024-11-22T11:39:42.000Z"
-  },
-  {
-    "appid": 1325860,
-    "name": "VTube Studio",
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1325860/library_600x900.jpg",
-    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1325860/header.jpg",
-    "playtimeMinutes": 6,
-    "lastPlayedAt": "2025-12-22T17:00:37.000Z"
   },
   {
     "appid": 1372110,
@@ -376,28 +352,12 @@
     "lastPlayedAt": "2024-05-03T16:07:57.000Z"
   },
   {
-    "appid": 1465460,
-    "name": "Infection Free Zone",
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465460/library_600x900.jpg",
-    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465460/header.jpg",
-    "playtimeMinutes": 10,
-    "lastPlayedAt": "2026-11-10T17:40:45.000Z"
-  },
-  {
     "appid": 1509960,
     "name": "PICO PARK",
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1509960/library_600x900.jpg",
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1509960/header.jpg",
     "playtimeMinutes": 132,
     "lastPlayedAt": "2023-08-26T12:31:19.000Z"
-  },
-  {
-    "appid": 1568400,
-    "name": "Sheepy: A Short Adventure",
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1568400/library_600x900.jpg",
-    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1568400/header.jpg",
-    "playtimeMinutes": 88,
-    "lastPlayedAt": "2026-08-30T12:53:34.000Z"
   },
   {
     "appid": 1568590,
@@ -440,28 +400,12 @@
     "lastPlayedAt": "2023-06-04T16:47:31.000Z"
   },
   {
-    "appid": 1782210,
-    "name": "Crab Game",
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782210/library_600x900.jpg",
-    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782210/header.jpg",
-    "playtimeMinutes": 4,
-    "lastPlayedAt": "2021-11-01T10:49:53.000Z"
-  },
-  {
     "appid": 1801110,
     "name": "BOKURA",
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1801110/library_600x900.jpg",
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1801110/header.jpg",
     "playtimeMinutes": 400,
     "lastPlayedAt": "2026-10-31T06:07:42.000Z"
-  },
-  {
-    "appid": 1899700,
-    "name": "Graphwar",
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1899700/library_600x900.jpg",
-    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1899700/header.jpg",
-    "playtimeMinutes": 5,
-    "lastPlayedAt": "2022-11-26T15:31:54.000Z"
   },
   {
     "appid": 1903340,
@@ -488,28 +432,12 @@
     "lastPlayedAt": "2025-03-18T14:29:41.000Z"
   },
   {
-    "appid": 2275710,
-    "name": "Akari and the Abyss",
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2275710/library_600x900.jpg",
-    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2275710/header.jpg",
-    "playtimeMinutes": 36,
-    "lastPlayedAt": "2026-05-03T16:08:17.000Z"
-  },
-  {
     "appid": 2379780,
     "name": "Balatro",
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/library_600x900.jpg",
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/header.jpg",
     "playtimeMinutes": 682,
     "lastPlayedAt": "2025-03-18T14:58:47.000Z"
-  },
-  {
-    "appid": 2420510,
-    "name": "HoloCure - Save the Fans!",
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420510/library_600x900.jpg",
-    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420510/header.jpg",
-    "playtimeMinutes": 578,
-    "lastPlayedAt": "2026-03-22T17:47:35.000Z"
   },
   {
     "appid": 2515070,
@@ -544,14 +472,6 @@
     "lastPlayedAt": "2025-03-18T02:56:25.000Z"
   },
   {
-    "appid": 2776810,
-    "name": "100 Ninja Cats",
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2776810/library_600x900.jpg",
-    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2776810/header.jpg",
-    "playtimeMinutes": 1,
-    "lastPlayedAt": "2026-04-16T13:55:09.000Z"
-  },
-  {
     "appid": 2881650,
     "name": "Content Warning",
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881650/library_600x900.jpg",
@@ -566,14 +486,6 @@
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909110/header.jpg",
     "playtimeMinutes": 26,
     "lastPlayedAt": "2024-12-03T16:40:25.000Z"
-  },
-  {
-    "appid": 3032020,
-    "name": "Cast & Spell",
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3032020/library_600x900.jpg",
-    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3032020/header.jpg",
-    "playtimeMinutes": 4,
-    "lastPlayedAt": "2025-05-19T06:39:47.000Z"
   },
   {
     "appid": 3070070,
@@ -630,14 +542,6 @@
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3404380/header.jpg",
     "playtimeMinutes": 1,
     "lastPlayedAt": "2025-05-03T12:21:31.000Z"
-  },
-  {
-    "appid": 3414900,
-    "name": "Just Move:Clean City Messy Battle",
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3414900/library_600x900.jpg",
-    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3414900/header.jpg",
-    "playtimeMinutes": 12,
-    "lastPlayedAt": "2026-11-10T15:33:40.000Z"
   },
   {
     "appid": 3655150,
