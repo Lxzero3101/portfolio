@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en" data-title-key="cv.title">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV · Viet Phi Long Le</title>
+  <meta name="description" content="CV of Viet Phi Long Le, junior game designer (level design and playtesting).">
+  <link rel="icon" href="assets/avatar.jpg">
+  <script>
+    (() => { let t = null; try { t = localStorage.getItem('theme'); } catch {}
+      if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = t; })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Silkscreen&display=swap&subset=vietnamese" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="nav.skip">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="./"><img src="assets/avatar.jpg" alt="" width="32" height="32"><span>Long Le</span></a>
+      <ul class="nav-links">
+        <li><a href="works.html" data-i18n="nav.works">Works</a></li>
+        <li><a href="library.html" data-i18n="nav.library">Library</a></li>
+        <li data-blog hidden><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
+        <li><a href="cv.html" aria-current="page" data-i18n="nav.cv">CV</a></li>
+      </ul>
+      <div class="nav-tools">
+        <button class="icon-btn" type="button" data-lang-toggle>VI</button>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+          <svg class="theme-icon-light" aria-hidden="true"><use href="#i-moon"/></svg>
+          <svg class="theme-icon-dark" aria-hidden="true"><use href="#i-sun"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <header class="page-head cv-head">
+      <div>
+        <h1 data-i18n="nav.cv">CV</h1>
+        <p data-i18n="cv.lead">Junior Game Designer · Level Design &amp; Playtesting</p>
+      </div>
+      <div class="hero-cta">
+        <a class="btn" href="assets/Viet-Phi-Long-Le-CV.pdf" download><svg aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="home.ctaCv">Download CV</span></a>
+        <a class="btn ghost" href="assets/Viet-Phi-Long-Le-CV.pdf" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-external"/></svg><span data-i18n="cv.newTab">Open in new tab</span></a>
+      </div>
+    </header>
+
+    <section class="px cv-viewer section" aria-label="CV preview" data-i18n-attr="aria-label:cv.previewLabel">
+      <object data="assets/Viet-Phi-Long-Le-CV.pdf#view=FitH" type="application/pdf" title="CV of Viet Phi Long Le">
+        <div class="empty">
+          <p data-i18n="cv.fallback">Your browser can't show the PDF here. Use the buttons above to open or download it.</p>
+        </div>
+      </object>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span data-year>2026</span> <span data-i18n="name">Viet Phi Long Le</span></span>
+      <span><a href="https://lxzero1412.itch.io" target="_blank" rel="noopener">itch.io</a> · <a href="https://steamcommunity.com/id/lxzero/" target="_blank" rel="noopener">Steam</a> · <a href="https://github.com/Lxzero3101" target="_blank" rel="noopener">GitHub</a></span>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

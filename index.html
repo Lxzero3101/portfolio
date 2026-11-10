@@ -29,7 +29,7 @@
         <li><a href="works.html" data-i18n="nav.works">Works</a></li>
         <li><a href="library.html" data-i18n="nav.library">Library</a></li>
         <li data-blog hidden><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
-        <li><a href="assets/Viet-Phi-Long-Le-CV.pdf" download data-i18n="nav.cv">CV</a></li>
+        <li><a href="cv.html" data-i18n="nav.cv">CV</a></li>
       </ul>
       <div class="nav-tools">
         <button class="icon-btn" type="button" data-lang-toggle>VI</button>
@@ -46,7 +46,7 @@
     <section class="hero" aria-labelledby="name">
       <img class="avatar" src="assets/avatar.jpg" alt="Long's avatar" width="160" height="160" data-i18n-attr="alt:home.avatarAlt">
       <div>
-        <h1 id="name">Viet Phi Long Le</h1>
+        <h1 id="name" data-i18n="name">Viet Phi Long Le</h1>
         <div class="loc"><svg aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="home.loc">Marsfield NSW, Sydney</span></div>
         <p class="role" data-i18n="home.role">Junior Game Designer · Level Design &amp; Playtesting</p>
         <div class="intro">
@@ -62,7 +62,7 @@
         </div>
         <div class="hero-cta">
           <a class="btn" href="https://lxzero1412.itch.io" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-gamepad"/></svg><span data-i18n="home.ctaPlay">Play my games</span></a>
-          <a class="btn ghost" href="assets/Viet-Phi-Long-Le-CV.pdf" download><svg aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="home.ctaCv">Download CV</span></a>
+          <a class="btn ghost" href="cv.html"><svg aria-hidden="true"><use href="#i-book"/></svg><span data-i18n="home.ctaViewCv">View CV</span></a>
         </div>
       </div>
     </section>
@@ -93,6 +93,13 @@
           <div class="body">
             <h3><span data-i18n="nav.library">Library</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></h3>
             <p data-i18n="home.libraryDesc">Games I have played, synced from Steam every day.</p>
+          </div>
+        </a>
+        <a class="px explore-card" href="cv.html">
+          <div class="cover cv-sheet" aria-hidden="true"><div class="paper"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+          <div class="body">
+            <h3><span data-i18n="nav.cv">CV</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></h3>
+            <p data-i18n="home.cvDesc">Read my CV right here, or download the PDF.</p>
           </div>
         </a>
         <a class="px explore-card" href="blog.html" data-blog hidden>
@@ -238,7 +245,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <span>© <span data-year>2026</span> Viet Phi Long Le</span>
+      <span>© <span data-year>2026</span> <span data-i18n="name">Viet Phi Long Le</span></span>
       <span><a href="https://lxzero1412.itch.io" target="_blank" rel="noopener">itch.io</a> · <a href="https://steamcommunity.com/id/lxzero/" target="_blank" rel="noopener">Steam</a> · <a href="https://github.com/Lxzero3101" target="_blank" rel="noopener">GitHub</a></span>
     </div>
   </footer>

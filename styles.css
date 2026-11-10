@@ -335,3 +335,22 @@ main { padding: 40px 0 64px; }
   position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: 12px;
   text-align: center; font-weight: 700; color: var(--muted); background: var(--surface-2);
 }
+
+/* ---------- CV viewer ---------- */
+.cv-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 20px; }
+.cv-viewer { margin-top: 28px; padding: 0; overflow: hidden; }
+.cv-viewer object { display: block; width: 100%; height: min(85vh, 1100px); border: 0; background: var(--surface-2); }
+.cv-viewer .empty { height: 100%; display: flex; align-items: center; justify-content: center; }
+
+/* Explore card: CV paper illustration */
+.cv-sheet { display: flex; align-items: center; justify-content: center; }
+.cv-sheet .paper {
+  width: 42%; height: 82%; background: #f8fbfc; padding: 8% 6%;
+  box-shadow: 0 0 0 3px var(--line), 6px 6px 0 3px var(--shadow);
+  display: flex; flex-direction: column; gap: 7%;
+}
+.cv-sheet .paper i { display: block; height: 6%; background: #c6d6df; }
+.cv-sheet .paper i:nth-child(1) { width: 75%; height: 10%; background: #0b3d5c; }
+.cv-sheet .paper i:nth-child(2) { width: 50%; background: #22d3ee; }
+.cv-sheet .paper i:nth-child(4) { width: 85%; }
+.cv-sheet .paper i:nth-child(6) { width: 60%; }

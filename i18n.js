@@ -13,7 +13,8 @@ window.I18N_VI = {
   'nav.cv': 'CV',
 
   // Home
-  'home.title': 'Viet Phi Long Le · Junior Game Designer',
+  'name': 'Lê Việt Phi Long',
+  'home.title': 'Lê Việt Phi Long · Junior Game Designer',
   'home.avatarAlt': 'Ảnh đại diện của Long',
   'home.loc': 'Marsfield NSW, Sydney',
   'home.role': 'Junior Game Designer · Thiết kế màn chơi & Playtest',
@@ -22,6 +23,8 @@ window.I18N_VI = {
   'home.discordCopy': 'Sao chép tên Discord fraise1412',
   'home.ctaPlay': 'Chơi game của mình',
   'home.ctaCv': 'Tải CV',
+  'home.ctaViewCv': 'Xem CV',
+  'home.cvDesc': 'Xem CV ngay trên trang, hoặc tải file PDF.',
   'home.highlights': 'Điểm nổi bật',
   'home.statShipped': 'Game đã phát hành',
   'home.statJams': 'Game jam',
@@ -87,7 +90,7 @@ window.I18N_VI = {
   'contact.location': 'Địa điểm',
 
   // Works
-  'works.title': 'Dự án · Viet Phi Long Le',
+  'works.title': 'Dự án · Lê Việt Phi Long',
   'works.lead': 'Những game mình đã thiết kế và phát triển, cùng với phần việc mình đảm nhận.',
   'works.shipped': 'Game đã phát hành',
   'works.bsBadge': 'Phát hành 27/10/2026',
@@ -114,7 +117,7 @@ window.I18N_VI = {
   'works.ifDesc': 'Bản prototype của nhóm đầu năm 2026, đã qua vòng greenlight và phát triển thành Bomb Slime.',
 
   // Library
-  'lib.title': 'Thư viện · Viet Phi Long Le',
+  'lib.title': 'Thư viện · Lê Việt Phi Long',
   'lib.lead': 'Những game mình đã chơi, tự động đồng bộ từ hồ sơ Steam mỗi ngày.',
   'lib.summary': 'Tổng quan',
   'lib.total': 'Game đã chơi',
@@ -141,8 +144,15 @@ window.I18N_VI = {
   'lib.ratingAria': 'Điểm {n} trên 10',
   'lib.footer': 'Dữ liệu và ảnh bìa game lấy từ Steam.',
 
+  // CV
+  'cv.title': 'CV · Lê Việt Phi Long',
+  'cv.lead': 'Junior Game Designer · Thiết kế màn chơi & Playtest',
+  'cv.newTab': 'Mở trong tab mới',
+  'cv.previewLabel': 'Xem trước CV',
+  'cv.fallback': 'Trình duyệt của bạn không hiển thị được PDF tại đây. Hãy dùng các nút bên trên để mở hoặc tải về.',
+
   // Blog
-  'blog.title': 'Blog · Viet Phi Long Le',
+  'blog.title': 'Blog · Lê Việt Phi Long',
   'blog.empty': 'Chưa có bài viết nào. Hẹn bạn sớm!',
 };
 
