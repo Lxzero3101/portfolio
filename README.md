@@ -24,6 +24,8 @@ Then open http://localhost:5173.
 
 ## Publish on GitHub Pages (one-time setup)
 
+https://lxzero3101.github.io/portfolio/
+
 1. Create a repo on github.com/Lxzero3101, e.g. `portfolio` (or `Lxzero3101.github.io` for a root URL), and push this folder to the `main` branch.
 2. Repo **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 3. Get a Steam Web API key at https://steamcommunity.com/dev/apikey (any domain name works).
