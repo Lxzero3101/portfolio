@@ -284,8 +284,8 @@
     "name": "Apex Legends",
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/library_600x900.jpg",
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/header.jpg",
-    "playtimeMinutes": 1363,
-    "lastPlayedAt": "2026-11-11T07:41:08.000Z"
+    "playtimeMinutes": 1515,
+    "lastPlayedAt": "2026-11-12T13:34:36.000Z"
   },
   {
     "appid": 1245620,
@@ -326,6 +326,14 @@
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1406990/header.jpg",
     "playtimeMinutes": 144,
     "lastPlayedAt": "2025-09-14T09:51:15.000Z"
+  },
+  {
+    "appid": 1422450,
+    "name": "Deadlock",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1422450/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1422450/header.jpg",
+    "playtimeMinutes": 48,
+    "lastPlayedAt": "2026-11-12T05:56:29.000Z"
   },
   {
     "appid": 1426210,
