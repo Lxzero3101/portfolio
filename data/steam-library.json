@@ -124,8 +124,8 @@
     "name": "Aseprite",
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431730/library_600x900.jpg",
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431730/header.jpg",
-    "playtimeMinutes": 2,
-    "lastPlayedAt": "2026-11-08T16:00:41.000Z"
+    "playtimeMinutes": 146,
+    "lastPlayedAt": "2026-11-13T15:06:41.000Z"
   },
   {
     "appid": 438100,
@@ -332,8 +332,8 @@
     "name": "Deadlock",
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1422450/library_600x900.jpg",
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1422450/header.jpg",
-    "playtimeMinutes": 48,
-    "lastPlayedAt": "2026-11-12T05:56:29.000Z"
+    "playtimeMinutes": 111,
+    "lastPlayedAt": "2026-11-13T12:31:43.000Z"
   },
   {
     "appid": 1426210,
@@ -517,7 +517,7 @@
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3224770/library_600x900.jpg",
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3224770/header.jpg",
     "playtimeMinutes": 167406,
-    "lastPlayedAt": "2026-11-10T14:41:42.000Z"
+    "lastPlayedAt": "2026-11-13T14:37:40.000Z"
   },
   {
     "appid": 3241660,
