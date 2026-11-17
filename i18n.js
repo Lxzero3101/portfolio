@@ -45,8 +45,6 @@ window.I18N_VI = {
   'media.tvRole': 'Phỏng vấn truyền hình',
   'media.tvDesc': 'Được phỏng vấn với tư cách sinh viên ngành game của Đại học Macquarie về cảm nghĩ của mình với <em>GTA 6</em>, trong phóng sự “The billion-dollar impact one video game could have on the world”.',
   'media.watch': 'Xem trên YouTube',
-  'media.watchHere': 'Xem tại đây',
-  'media.hideVideo': 'Ẩn video',
   'home.contact': 'Liên hệ',
 
   // Skills
@@ -191,6 +189,4 @@ window.I18N_EN_EXTRA = {
   'lib.openStore': 'open Steam store page',
   'lib.ratingAria': 'Rated {n} out of 10',
   'blog.empty': 'No posts yet. Check back soon!',
-  'media.watchHere': 'Watch here',
-  'media.hideVideo': 'Hide video',
 };

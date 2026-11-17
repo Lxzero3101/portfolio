@@ -288,9 +288,7 @@ main { padding: 40px 0 64px; }
 .work-card h3 { font-size: 19px; }
 .work-card .meta { font-size: 14px; color: var(--muted); }
 @media (min-width: 720px) { .grid-2 > .span-all { grid-column: 1 / -1; } }
-.tl-actions { margin-top: 14px; }
-.video-embed { margin-top: 20px; aspect-ratio: 16 / 9; overflow: hidden; background: #000; }
-.video-embed iframe { display: block; width: 100%; height: 100%; border: 0; }
+.tl-item .btn { margin-top: 12px; }
 .work-card .did strong { color: var(--text); }
 .work-card .role { font-size: 14px; font-weight: 600; margin-top: -4px; }
 .work-card .lesson { font-size: 15px; border-left: var(--px) solid var(--accent-fill); padding-left: 10px; color: var(--muted); }
