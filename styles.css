@@ -287,6 +287,9 @@ main { padding: 40px 0 64px; }
 .work-card .body { padding: 16px 18px 20px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .work-card h3 { font-size: 19px; }
 .work-card .meta { font-size: 14px; color: var(--muted); }
+@media (min-width: 720px) { .grid-2 > .span-all { grid-column: 1 / -1; } }
+.tl-item .btn { margin-top: 12px; }
+.work-card .did strong { color: var(--text); }
 .work-card .role { font-size: 14px; font-weight: 600; margin-top: -4px; }
 .work-card .lesson { font-size: 15px; border-left: var(--px) solid var(--accent-fill); padding-left: 10px; color: var(--muted); }
 .work-card .play { margin-top: auto; padding-top: 6px; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; }
