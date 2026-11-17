@@ -170,6 +170,10 @@ window.I18N_VI = {
   'cv.lead': 'Junior Game Designer · Thiết kế màn chơi & Playtest',
   'cv.newTab': 'Mở trong tab mới',
   'cv.previewLabel': 'Xem trước CV',
+  'cv.versionLabel': 'Phiên bản CV',
+  'cv.colour': 'Bản màu',
+  'cv.bw': 'Bản đen trắng',
+  'cv.versionHint': 'Hai bản có nội dung giống nhau. Bản đen trắng phù hợp hơn khi in.',
   'cv.fallback': 'Trình duyệt của bạn không hiển thị được PDF tại đây. Hãy dùng các nút bên trên để mở hoặc tải về.',
 
   // Blog

@@ -347,7 +347,9 @@ main { padding: 40px 0 64px; }
 
 /* ---------- CV viewer ---------- */
 .cv-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 20px; }
-.cv-viewer { margin-top: 28px; padding: 0; overflow: hidden; }
+.cv-versions { margin-top: 28px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+.cv-versions p { margin: 0; color: var(--muted); }
+.cv-viewer { margin-top: 16px; padding: 0; overflow: hidden; }
 .cv-viewer object { display: block; width: 100%; height: min(85vh, 1100px); border: 0; background: var(--surface-2); }
 .cv-viewer .empty { height: 100%; display: flex; align-items: center; justify-content: center; }
 

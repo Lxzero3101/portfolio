@@ -45,13 +45,21 @@
         <p data-i18n="cv.lead">Junior Game Designer · Level Design &amp; Playtesting</p>
       </div>
       <div class="hero-cta">
-        <a class="btn" href="assets/Viet-Phi-Long-Le-CV.pdf" download><svg aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="home.ctaCv">Download CV</span></a>
-        <a class="btn ghost" href="assets/Viet-Phi-Long-Le-CV.pdf" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-external"/></svg><span data-i18n="cv.newTab">Open in new tab</span></a>
+        <a class="btn" href="assets/Viet-Phi-Long-Le-CV.pdf" download data-cv-link><svg aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="home.ctaCv">Download CV</span></a>
+        <a class="btn ghost" href="assets/Viet-Phi-Long-Le-CV.pdf" target="_blank" rel="noopener" data-cv-link><svg aria-hidden="true"><use href="#i-external"/></svg><span data-i18n="cv.newTab">Open in new tab</span></a>
       </div>
     </header>
 
-    <section class="px cv-viewer section" aria-label="CV preview" data-i18n-attr="aria-label:cv.previewLabel">
-      <object data="assets/Viet-Phi-Long-Le-CV.pdf#view=FitH" type="application/pdf" title="CV of Viet Phi Long Le">
+    <div class="cv-versions">
+      <div class="filters" role="group" aria-label="CV version" data-i18n-attr="aria-label:cv.versionLabel">
+        <button class="chip" type="button" aria-pressed="true" data-cv-version="assets/Viet-Phi-Long-Le-CV.pdf" data-i18n="cv.colour">Colour</button>
+        <button class="chip" type="button" aria-pressed="false" data-cv-version="assets/Viet-Phi-Long-Le-CV-BW.pdf" data-i18n="cv.bw">Black &amp; white</button>
+      </div>
+      <p class="small" data-i18n="cv.versionHint">Both versions have the same content. Black &amp; white is best for printing.</p>
+    </div>
+
+    <section class="px cv-viewer" aria-label="CV preview" data-i18n-attr="aria-label:cv.previewLabel">
+      <object data="assets/Viet-Phi-Long-Le-CV.pdf#view=FitH" type="application/pdf" title="CV of Viet Phi Long Le" data-cv-viewer>
         <div class="empty">
           <p data-i18n="cv.fallback">Your browser can't show the PDF here. Use the buttons above to open or download it.</p>
         </div>
@@ -68,5 +76,23 @@
 
   <script src="i18n.js"></script>
   <script src="script.js"></script>
+  <script>
+    // Switch between the colour and black-and-white CV. An <object>'s data can't be
+    // swapped reliably in every browser, so replace the element instead.
+    (() => {
+      const buttons = document.querySelectorAll('[data-cv-version]');
+      const links = document.querySelectorAll('[data-cv-link]');
+      buttons.forEach((btn) => btn.addEventListener('click', () => {
+        if (btn.getAttribute('aria-pressed') === 'true') return;
+        const file = btn.dataset.cvVersion;
+        buttons.forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+        links.forEach((a) => { a.href = file; });
+        const old = document.querySelector('[data-cv-viewer]');
+        const viewer = old.cloneNode(true);
+        viewer.data = `${file}#view=FitH`;
+        old.replaceWith(viewer);
+      }));
+    })();
+  </script>
 </body>
 </html>
