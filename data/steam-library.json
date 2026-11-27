@@ -284,8 +284,8 @@
     "name": "Apex Legends",
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/library_600x900.jpg",
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/header.jpg",
-    "playtimeMinutes": 2270,
-    "lastPlayedAt": "2026-11-26T14:56:42.000Z"
+    "playtimeMinutes": 2318,
+    "lastPlayedAt": "2026-11-27T11:16:04.000Z"
   },
   {
     "appid": 1245620,
@@ -462,6 +462,14 @@
     "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2653790/header.jpg",
     "playtimeMinutes": 17,
     "lastPlayedAt": "2025-10-31T15:02:38.000Z"
+  },
+  {
+    "appid": 2709570,
+    "name": "Supermarket Together",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2709570/library_600x900.jpg",
+    "coverFallback": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2709570/header.jpg",
+    "playtimeMinutes": 38,
+    "lastPlayedAt": "2026-11-27T17:01:59.000Z"
   },
   {
     "appid": 2739990,
